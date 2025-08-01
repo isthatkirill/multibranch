@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('Hello') {
             steps {
-                sleep XXXX
+                sleep 100
                 echo "Hello! I am from main!"
             }
         }
