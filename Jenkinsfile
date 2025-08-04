@@ -6,7 +6,7 @@ pipeline {
             steps {
                 sh 'ls -la'
                 sleep 240
-                echo "Hello! I am from main!"
+                echo "This is MAIN branch"
             }
         }
     }
