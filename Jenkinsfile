@@ -5,7 +5,7 @@ pipeline {
         stage('Hello') {
             steps {
                 sh 'ls -la'
-                sleep 300
+                sleep 1
                 echo "This is MAIN branch"
             }
         }
